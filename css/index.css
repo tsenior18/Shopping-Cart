@@ -42,3 +42,36 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
 }
+
+/* ----- Section One of the page ------- */
+
+.section-1 {
+    height: 40vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Title of the first section  */
+
+.title {
+    height: 20vh;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Time section for the first section */
+
+.time {
+    text-align: center;
+    height: 20vh;
+    color: black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+}
