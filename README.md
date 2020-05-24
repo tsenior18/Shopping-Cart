@@ -1,1 +1,1 @@
-# Shopping-Cart
+Basic Shopping Cart App
