@@ -1,7 +1,7 @@
 // Setting Default Index position to 0
 var i = 0,
     text
-text = 'Welcome To the Shopping Page'
+text = 'Welcome To the Shopping'
 
 
 function typingEffect() {

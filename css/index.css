@@ -5,7 +5,7 @@
 }
 
 body {
-    background: black;
+    background: beige;
 }
 
 /* ------ Nav Bar -------  */
@@ -14,8 +14,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 20vh;
-    background: #FFE4C4;
+    min-height: 15vh;
+    background: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -56,15 +56,15 @@ nav {
 .title {
     height: 20vh;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .title,
 .h1 {
     font-size: 40px;
-    padding-top: 50px;
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
-    color: white;
-
+    color: black;
 }
 
 /* Time section for the first section */
@@ -72,7 +72,7 @@ nav {
 .time {
     text-align: center;
     height: 20vh;
-    color: white;
+    color: black;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     padding-top: 40px;
@@ -83,7 +83,7 @@ nav {
 .wrapper {
     height: 120vh;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 250px 250px 250px;
     grid-gap: 100px;
     justify-content: center;
     padding-top: 5%;
@@ -101,30 +101,27 @@ nav {
 }
 
 .information {
-    background: ;
+    height: 200px;
+    width: 300px;
     margin-top: 30px;
-    height: 15vh;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
 }
 
 .information p {
-    padding-top: 20px;
-    line-height: 20px;
-    color: white;
+    text-align: center;
+    line-height: 40px;
+    color: black;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .addtobasket {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
     line-height: 20px;
     width: 100px;
-    margin-left: 100px;
-    margin-top: 10px;
-    b
+    height: 40px;
+    border-radius: 20px;
 }
