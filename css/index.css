@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #DEB887;
+    background: black;
 }
 
 /* ------ Nav Bar -------  */
@@ -15,12 +15,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 20vh;
-    background: #B0C4DE;
+    background: #FFE4C4;
     font-family: 'Poppins', sans-serif;
 }
 
 .logo {
-    color: black;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -63,6 +63,7 @@ nav {
     font-size: 40px;
     padding-top: 50px;
     font-family: 'Poppins', sans-serif;
+    color: white;
 
 }
 
@@ -71,7 +72,7 @@ nav {
 .time {
     text-align: center;
     height: 20vh;
-    color: black;
+    color: white;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     padding-top: 40px;
@@ -82,7 +83,7 @@ nav {
 .wrapper {
     height: 120vh;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 300px 300px 300px;
     grid-gap: 100px;
     justify-content: center;
     padding-top: 5%;
@@ -93,4 +94,37 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 10%;
+}
+
+.wrapper img:hover {
+    transform: scale(1.1);
+}
+
+.information {
+    background: ;
+    margin-top: 30px;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.information p {
+    padding-top: 20px;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addtobasket {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    line-height: 20px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    b
 }
