@@ -58,8 +58,9 @@ nav {
     text-align: center;
 }
 
-.title h1 {
-    font-size: 50px;
+.title,
+.h1 {
+    font-size: 40px;
     padding-top: 50px;
     font-family: 'Poppins', sans-serif;
 
@@ -91,4 +92,5 @@ nav {
 .wrapper img {
     width: 300px;
     height: 300px;
+    border-radius: 10%;
 }
