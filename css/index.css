@@ -164,6 +164,11 @@ nav {
     font-family: 'Quicksand', sans-serif;
 }
 
+.main-terms li {
+    line-height: 20px;
+    margin-top: 20px;
+}
+
 /* ---- Footer ------ */
 
 footer {
