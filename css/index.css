@@ -5,7 +5,7 @@
 }
 
 body {
-    background: beige;
+    background: mintcream;
 }
 
 /* ------ Nav Bar -------  */
@@ -126,7 +126,12 @@ nav {
     font-size: 20px;
 }
 
-.addtobasket {
+.addtobasket1,
+.addtobasket2,
+.addtobasket3,
+.addtobasket4,
+.addtobasket5,
+.addtobasket6 {
     margin-left: 100px;
     margin-top: 20px;
     line-height: 20px;
